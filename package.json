@@ -2,8 +2,12 @@
   "name": "ui-components-library",
   "version": "0.0.1",
   "description": "This is a ui component library",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanskarchoudhry/ui-components-library.git"
@@ -15,9 +19,15 @@
   },
   "homepage": "https://github.com/sanskarchoudhry/ui-components-library#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^19.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
     "typescript": "^5.7.2"
   },
   "peerDependencies": {
