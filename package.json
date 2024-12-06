@@ -1,0 +1,26 @@
+{
+  "name": "ui-components-library",
+  "version": "0.0.1",
+  "description": "This is a ui component library",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanskarchoudhry/ui-components-library.git"
+  },
+  "author": "Sanskar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanskarchoudhry/ui-components-library/issues"
+  },
+  "homepage": "https://github.com/sanskarchoudhry/ui-components-library#readme",
+  "devDependencies": {
+    "@types/react": "^19.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}
