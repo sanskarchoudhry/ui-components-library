@@ -1,12 +1,13 @@
 import React from "react";
-import { PageProps } from "./types";
+import { type PageProps } from "./types";
+import { Container } from "./style";
 
 const Page: React.FC<PageProps> = ({ title, children }) => {
   return (
-    <>
+    <Container data-testid="page-container">
       <h1>{title}</h1>
-      {children}
-    </>
+      <>{children}</>
+    </Container>
   );
 };
 
