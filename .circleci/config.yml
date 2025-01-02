@@ -11,9 +11,6 @@ jobs:
       - checkout
       - node/install-packages
       - run:
-          name: Install dependencies
-          command: npm install
-      - run:
           name: Lint code
           command: npm run lint:fix
 
@@ -47,6 +44,3 @@ workflows:
       - build:
           requires:
             - run_tests
-      - publish_to_npm:
-          requires:
-            - build
