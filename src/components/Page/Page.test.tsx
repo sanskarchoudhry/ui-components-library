@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom";
-import Page from ".";
+import Page from "./Page";
 import { render } from "@testing-library/react";
 import React from "react";
 

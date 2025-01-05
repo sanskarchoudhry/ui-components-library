@@ -1,4 +1,4 @@
-import Page from ".";
+import Page from "./Page";
 
 export default {
   title: "Components/Page",

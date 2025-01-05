@@ -1,6 +1,6 @@
 {
   "name": "sanskar-test-ui-components-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a test ui component library. DO NOT USE THIS",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
